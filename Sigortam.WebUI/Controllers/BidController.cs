@@ -15,7 +15,7 @@ namespace Sigortam.WebUI.Controllers
         {
             return View();
         }
-        [HttpPost]
+        [HttpPost] 
         public async Task<CommonResultModel<List<BidResponseModel>>> GetBidByCompany(BidRequestModel model)
         {
             BidService bidService = new BidService();
