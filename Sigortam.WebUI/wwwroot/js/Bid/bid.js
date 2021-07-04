@@ -31,7 +31,6 @@
             ruhsatSeriNo: ruhsatSeriNo
         },
         success: function (result) {
-            debugger;
             FillTable(result.dataResult);
         },
         error: function (xhr, textStatus, error) {
